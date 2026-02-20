@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Player EQ - Offline MP3 & Video Player with Powerful Equalizer. Enjoy high-quality sound anytime without internet.">
+<title>Player EQ - Offline MP3, Video Player & Equalizer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
+
+body{
+    background:#0f172a;
+    color:#fff;
+    overflow-x:hidden;
+}
+
+header{
+    padding:100px 20px;
+    text-align:center;
+    background:linear-gradient(135deg,#1e293b,#0f172a);
+    position:relative;
+}
+
+header h1{
+    font-size:48px;
+    font-weight:700;
+    animation:fadeDown 1s ease forwards;
+}
+
+header h2{
+    margin-top:15px;
+    font-weight:300;
+    color:#94a3b8;
+    animation:fadeUp 1.2s ease forwards;
+}
+
+.cta-btn{
+    display:inline-block;
+    margin-top:30px;
+    padding:15px 28px;
+    background:#38bdf8;
+    color:#000;
+    font-weight:600;
+    border-radius:50px;
+    text-decoration:none;
+    transition:.3s;
+    animation:fadeUp 1.5s ease forwards;
+}
+
+.cta-btn:hover{
+    transform:translateY(-5px);
+    box-shadow:0 10px 25px rgba(56,189,248,.4);
+}
+
+.nav-links{
+    position:absolute;
+    top:20px;
+    right:20px;
+}
+
+.nav-links a{
+    margin-left:20px;
+    color:#cbd5e1;
+    text-decoration:none;
+    font-size:14px;
+}
+
+.section{
+    max-width:1100px;
+    margin:auto;
+    padding:80px 20px;
+}
+
+.section-title{
+    text-align:center;
+    font-size:34px;
+    margin-bottom:30px;
+}
+
+.description{
+    text-align:center;
+    max-width:800px;
+    margin:0 auto 60px auto;
+    color:#cbd5e1;
+    font-size:18px;
+}
+
+.features{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:40px;
+}
+
+.feature-card{
+    background:#1e293b;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 10px 30px rgba(0,0,0,.3);
+    transform:translateY(40px);
+    opacity:0;
+    transition:.6s ease;
+}
+
+.feature-card.show{
+    transform:translateY(0);
+    opacity:1;
+}
+
+.feature-card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.feature-content{
+    padding:25px;
+}
+
+.feature-content h3{
+    margin-bottom:12px;
+}
+
+.feature-content p{
+    font-size:15px;
+    color:#cbd5e1;
+}
+
+footer{
+    text-align:center;
+    padding:50px 20px;
+    background:#0f172a;
+    border-top:1px solid #1e293b;
+    font-size:14px;
+    color:#94a3b8;
+}
+
+footer a{
+    color:#38bdf8;
+    text-decoration:none;
+}
+
+@keyframes fadeDown{
+    from{opacity:0;transform:translateY(-30px)}
+    to{opacity:1;transform:translateY(0)}
+}
+
+@keyframes fadeUp{
+    from{opacity:0;transform:translateY(30px)}
+    to{opacity:1;transform:translateY(0)}
+}
+
+@media(max-width:768px){
+    header h1{font-size:34px}
+    header h2{font-size:16px}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="nav-links">
+        <a href="https://sites.google.com/view/player-eq-01/privacy-policy" target="_blank">Privacy Policy</a>
+    </div>
+
+    <h1>Player EQ</h1>
+    <h2>Offline MP3, Video Player & Equalizer</h2>
+
+    <a class="cta-btn" href="https://apps.apple.com/us/app/id6759030883" target="_blank">
+        Download on the App Store
+    </a>
+</header>
+
+<section class="section">
+    <h2 class="section-title">Enjoy Your Music Offline with a Powerful Equalizer</h2>
+    <p class="description">
+        Experience high-quality sound anytime without an internet connection. 
+        Player EQ combines professional audio enhancement tools with seamless offline playback, 
+        delivering a premium music experience wherever you go.
+    </p>
+
+    <div class="features">
+
+        <div class="feature-card">
+            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SQN7onPVWXG_nJmdQUm8qRRFXudaRaVgWXnY_YdX6ea4Hty5AmZ2bp4YIMqVUufM8rkw3tI3e2xVDuolqr4qMM54b2aizeTbHzMozW1oG3-1KtwYrJXdAShHbSzRwxojl_b3zHh5BP9O7By01UDLKU28tFRP8_mau0bIUddW6J9zFJuhPJWjjtBfn8On-1xf2OMEWCZOFlnggwHPdrE_ODscvClKmDD5XYRKBc=w1280">
+            <div class="feature-content">
+                <h3>Offline Music Player</h3>
+                <p>Play your local music library anytime without Wi-Fi or cellular data. Ideal for travel, workouts, and daily commuting.</p>
+            </div>
+        </div>
+
+        <div class="feature-card">
+            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SQsE-nwxBQJVfZUwo-FN2ndRsIpDuCpqXIqd9nv_qDGLr-oLp4cCoB9Qf4dr6GXbiPSJAzTeIkAjFMGkXji8sxN4cKyUZFAViDoUXrYrTCuLcBfTruYHRv9JcP8AiP0uzptkDAL5bxSi7PhdVlcc-jUPePsSNtf2tzDl4CBnMPDlFAk4qW5158OVyXElbRcj9yNsu0dIBo-g3H2Cz6X_MTZAaZHXy0gePY2NG0=w1280">
+            <div class="feature-content">
+                <h3>Professional Equalizer</h3>
+                <p>Adjust audio frequencies manually or use built-in presets like Rock, Pop, Jazz, and Classical for personalized sound.</p>
+            </div>
+        </div>
+
+        <div class="feature-card">
+            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0STh9M21v91SVyvR1VWX73VFobeME_vymPGm7Q2pDslZMuWZ4gGntUOyckv-ndS4daK2h1xIraE4ddnPkcW3rvY1cz74MIXvTVqGKOVN3_VXaTKIABwhs91JKUGLzawrZbtyjlzql-whaiwwOVHdkJhOdTx5-oLP8x5D04cX-F4QTS5j0BO4UNCml4Jn0qnUVgX3wi6eYOZHQQFTCuxY3afj2FoiXgRLbuJqxYo=w1280">
+            <div class="feature-content">
+                <h3>High-Quality Sound</h3>
+                <p>Supports popular formats including MP3, FLAC, WAV, AAC and more with clear, high-fidelity output.</p>
+            </div>
+        </div>
+
+        <div class="feature-card">
+            <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SSK4m7gQ_GSOxjdFjGyhQgz513U0yRha05RgYQcHpJ212KjahNHq0Sz5YSnpGFK3Nb-bInZToO-ho0pl1fSaCbSK2wzWBz67Oiutf2LbmNLxxDAP1_rAadSVenROrWCUoLPY9vHMzFfxyj5iB8rt4Zxake8-nSnNCLDxiYKpzchOLaFjU--neMoWP0FqyojPhJMq5g4NL2yVI8_50pqaXSV3fyXt35rJ-GP=w1280">
+            <div class="feature-content">
+                <h3>Playlist Management</h3>
+                <p>Create and organize custom playlists to match every mood and occasion with intuitive controls.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <p>Address: Solano Ct Morgan Hill CA</p>
+    <p>Email: <a href="mailto:hikhang2025@gmail.com">hikhang2025@gmail.com</a></p>
+    <p><a href="https://sites.google.com/view/player-eq-01/privacy-policy" target="_blank">Privacy Policy</a></p>
+    <p>© 2026 Player EQ. All rights reserved.</p>
+</footer>
+
+<script>
+const cards = document.querySelectorAll('.feature-card');
+const observer = new IntersectionObserver(entries=>{
+    entries.forEach(entry=>{
+        if(entry.isIntersecting){
+            entry.target.classList.add('show');
+        }
+    });
+},{threshold:0.2});
+
+cards.forEach(card=>{
+    observer.observe(card);
+});
+</script>
+
+</body>
+</html>
